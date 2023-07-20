@@ -14,6 +14,7 @@
 		D25518ED2A684247003B7540 /* calenderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518EC2A684247003B7540 /* calenderPage.swift */; };
 		D25518EF2A68433A003B7540 /* resourcesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518EE2A68433A003B7540 /* resourcesPage.swift */; };
 		D25518F12A68438A003B7540 /* recipesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F02A68438A003B7540 /* recipesPage.swift */; };
+		D25518F72A697362003B7540 /* foodLogPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F62A697362003B7540 /* foodLogPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D25518EC2A684247003B7540 /* calenderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderPage.swift; sourceTree = "<group>"; };
 		D25518EE2A68433A003B7540 /* resourcesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesPage.swift; sourceTree = "<group>"; };
 		D25518F02A68438A003B7540 /* recipesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesPage.swift; sourceTree = "<group>"; };
+		D25518F62A697362003B7540 /* foodLogPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodLogPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D25518F02A68438A003B7540 /* recipesPage.swift */,
 				D25518EE2A68433A003B7540 /* resourcesPage.swift */,
 				D25518EC2A684247003B7540 /* calenderPage.swift */,
+				D25518F62A697362003B7540 /* foodLogPage.swift */,
 				720770262A61C76200D1FA7C /* Assets.xcassets */,
 				720770282A61C76200D1FA7C /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25518ED2A684247003B7540 /* calenderPage.swift in Sources */,
+				D25518F72A697362003B7540 /* foodLogPage.swift in Sources */,
 				D25518F12A68438A003B7540 /* recipesPage.swift in Sources */,
 				720770252A61C76000D1FA7C /* ContentView.swift in Sources */,
 				D25518EF2A68433A003B7540 /* resourcesPage.swift in Sources */,

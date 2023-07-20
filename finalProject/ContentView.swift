@@ -18,58 +18,48 @@ struct ContentView: View {
                     
                     NavigationLink(destination: calenderPage()) {
                         ZStack {
-                            HStack {
                                 Capsule()
                                     .fill(Color.green)
-                                    .frame(width: 300, height: 150)
-                                    .ignoresSafeArea()
-                                    .padding(.trailing, 300.0)
-                                    .offset(x:0, y:-430)
-                                Spacer()
-                            }
-                            HStack {
+                                    .frame(width: 437.5, height: 187.5)
+
                                 Text("Calendar")
-                                    .foregroundColor(.white)
+                                    .foregroundColor(.black)
                                     .font(.largeTitle)
-                                    .padding(.leading, 125.0)
-                                    .offset(x:0, y:-430)
-                    
-                                Spacer()
+                                    .offset(x:80)
+                                
                             }
                         }
-                    }
-                                                    
+                    .offset(x:-180, y:-105)
+                    
+                    
                             NavigationLink(destination: resourcesPage()) {
                                 ZStack {
                                     Capsule()
                                         .fill(Color.purple)
-                                        .frame(width: 100, height: 50)
-                                        .ignoresSafeArea()
-                                        .padding(.leading, 300.0)
-                                        .offset(x:0, y:-330);                            Text("Resources")
-                                        .foregroundColor(.black)
-                                        .font(.headline)
+                                        .frame(width: 437.5, height: 187.5)
+                                       
+                                    Text("Resources")
                                         .foregroundColor(.black)
                                         .font(.largeTitle)
-                                        .padding(.trailing, 125.0)
-                                        .offset(x:0, y:-330)
-                                    // I was having an issue setting up the reosurces button because I think the padding used makes it hard to place both buttons close to each other
-                                    
+                                        .offset(x:-95, y:0)
                                 }
                             }
+                            .offset(x:190, y:-130)
                             
                             NavigationLink(destination: recipesPage()) {
                                 ZStack {
                                     Capsule()
                                         .fill(Color.blue)
-                                        .frame(width: 100, height: 50)
+                                        .frame(width: 437.5, height: 187.5)
+                                                                       
                                     Text("Recipes")
-                                        .foregroundColor(.white)
-                                        .font(.headline)
+                                        .foregroundColor(.black)
+                                        .font(.largeTitle)
+                                        .offset(x: 75 , y: 0)
                                 }
                             }
-                        }
-                    
+                    .offset(x:-190, y:-160)
+                    }
                 }
             }
         }

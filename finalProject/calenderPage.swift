@@ -9,7 +9,15 @@ import SwiftUI
 
 struct calenderPage: View {
     var body: some View {
-        Text("calender")
+        NavigationStack {
+            ZStack {
+                VStack(alignment: .leading) {
+
+                }
+                .navigationBarTitle("Calender")
+                
+            }
+        }
     }
 }
 
