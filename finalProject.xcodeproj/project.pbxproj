@@ -15,6 +15,9 @@
 		D25518EF2A68433A003B7540 /* resourcesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518EE2A68433A003B7540 /* resourcesPage.swift */; };
 		D25518F12A68438A003B7540 /* recipesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F02A68438A003B7540 /* recipesPage.swift */; };
 		D25518F72A697362003B7540 /* foodLogPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F62A697362003B7540 /* foodLogPage.swift */; };
+		D25518F92A69FE2F003B7540 /* OrganizationsForResourves.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F82A69FE2F003B7540 /* OrganizationsForResourves.swift */; };
+		D25518FB2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518FA2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift */; };
+		D25518FD2A69FF4B003B7540 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518FC2A69FF4B003B7540 /* QRCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		D25518EE2A68433A003B7540 /* resourcesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesPage.swift; sourceTree = "<group>"; };
 		D25518F02A68438A003B7540 /* recipesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesPage.swift; sourceTree = "<group>"; };
 		D25518F62A697362003B7540 /* foodLogPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodLogPage.swift; sourceTree = "<group>"; };
+		D25518F82A69FE2F003B7540 /* OrganizationsForResourves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationsForResourves.swift; sourceTree = "<group>"; };
+		D25518FA2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreAboutFoodWaste.swift; sourceTree = "<group>"; };
+		D25518FC2A69FF4B003B7540 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,10 @@
 				720770242A61C76000D1FA7C /* ContentView.swift */,
 				D25518F02A68438A003B7540 /* recipesPage.swift */,
 				D25518EE2A68433A003B7540 /* resourcesPage.swift */,
+				D25518FC2A69FF4B003B7540 /* QRCode.swift */,
+				D25518FA2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift */,
 				D25518EC2A684247003B7540 /* calenderPage.swift */,
+				D25518F82A69FE2F003B7540 /* OrganizationsForResourves.swift */,
 				D25518F62A697362003B7540 /* foodLogPage.swift */,
 				720770262A61C76200D1FA7C /* Assets.xcassets */,
 				720770282A61C76200D1FA7C /* Preview Content */,
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25518F92A69FE2F003B7540 /* OrganizationsForResourves.swift in Sources */,
 				D25518ED2A684247003B7540 /* calenderPage.swift in Sources */,
 				D25518F72A697362003B7540 /* foodLogPage.swift in Sources */,
 				D25518F12A68438A003B7540 /* recipesPage.swift in Sources */,
+				D25518FB2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift in Sources */,
+				D25518FD2A69FF4B003B7540 /* QRCode.swift in Sources */,
 				720770252A61C76000D1FA7C /* ContentView.swift in Sources */,
 				D25518EF2A68433A003B7540 /* resourcesPage.swift in Sources */,
 				720770232A61C76000D1FA7C /* finalProjectApp.swift in Sources */,
