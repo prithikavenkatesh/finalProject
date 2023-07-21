@@ -21,6 +21,7 @@ struct ContentView: View {
                                 .frame(width: 437.5, height: 187.5)
                             
                             Text("Calendar")
+                                .fontWeight(.bold)
                                 .foregroundColor(.black)
                                 .font(.largeTitle)
                                 .offset(x:80)
@@ -37,6 +38,7 @@ struct ContentView: View {
                                 .frame(width: 437.5, height: 187.5)
                             
                             Text("Resources")
+                                .fontWeight(.bold)
                                 .foregroundColor(.black)
                                 .font(.largeTitle)
                                 .offset(x:-95, y:0)
@@ -51,6 +53,7 @@ struct ContentView: View {
                                 .frame(width: 437.5, height: 187.5)
                             
                             Text("Recipes")
+                                .fontWeight(.bold)
                                 .foregroundColor(.black)
                                 .font(.largeTitle)
                                 .offset(x: 75 , y: 0)

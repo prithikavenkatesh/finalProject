@@ -21,6 +21,10 @@
 		D25519412A6A9001003B7540 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25519402A6A9001003B7540 /* NewItemViewViewModel.swift */; };
 		D25519432A6A92B4003B7540 /* FLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25519422A6A92B4003B7540 /* FLButton.swift */; };
 		D25519452A6A96B4003B7540 /* FoodListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25519442A6A96B4003B7540 /* FoodListViewViewModel.swift */; };
+		D25519492A6AC92A003B7540 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25519482A6AC92A003B7540 /* Persistence.swift */; };
+		D255194C2A6ACA88003B7540 /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D255194A2A6ACA87003B7540 /* finalProject.xcdatamodeld */; };
+		D2F40DCF2A6AEDDB00E3BD4A /* ecoTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F40DCE2A6AEDDB00E3BD4A /* ecoTips.swift */; };
+		D2F40DD12A6AEE0200E3BD4A /* allRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F40DD02A6AEE0200E3BD4A /* allRecipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		D25519402A6A9001003B7540 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		D25519422A6A92B4003B7540 /* FLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLButton.swift; sourceTree = "<group>"; };
 		D25519442A6A96B4003B7540 /* FoodListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewViewModel.swift; sourceTree = "<group>"; };
+		D25519482A6AC92A003B7540 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D255194B2A6ACA88003B7540 /* finalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalProject.xcdatamodel; sourceTree = "<group>"; };
+		D2F40DCE2A6AEDDB00E3BD4A /* ecoTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoTips.swift; sourceTree = "<group>"; };
+		D2F40DD02A6AEE0200E3BD4A /* allRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allRecipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				720770222A61C76000D1FA7C /* finalProjectApp.swift */,
+				D25519482A6AC92A003B7540 /* Persistence.swift */,
 				720770242A61C76000D1FA7C /* ContentView.swift */,
 				D25518F02A68438A003B7540 /* recipesPage.swift */,
 				D25518EE2A68433A003B7540 /* resourcesPage.swift */,
+				D2F40DCE2A6AEDDB00E3BD4A /* ecoTips.swift */,
+				D2F40DD02A6AEE0200E3BD4A /* allRecipes.swift */,
 				D25518FC2A69FF4B003B7540 /* QRCode.swift */,
 				D25518FA2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift */,
 				D25518F82A69FE2F003B7540 /* OrganizationsForResourves.swift */,
@@ -85,6 +96,7 @@
 				D25519442A6A96B4003B7540 /* FoodListViewViewModel.swift */,
 				720770262A61C76200D1FA7C /* Assets.xcassets */,
 				720770282A61C76200D1FA7C /* Preview Content */,
+				D255194A2A6ACA87003B7540 /* finalProject.xcdatamodeld */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -168,17 +180,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25518F92A69FE2F003B7540 /* OrganizationsForResourves.swift in Sources */,
+				D2F40DD12A6AEE0200E3BD4A /* allRecipes.swift in Sources */,
 				D25518ED2A684247003B7540 /* CalendarView.swift in Sources */,
 				D25519432A6A92B4003B7540 /* FLButton.swift in Sources */,
 				D25518F12A68438A003B7540 /* recipesPage.swift in Sources */,
 				D255193F2A6A8E7B003B7540 /* NewItemView.swift in Sources */,
 				D25518FB2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift in Sources */,
 				D25518FD2A69FF4B003B7540 /* QRCode.swift in Sources */,
+				D25519492A6AC92A003B7540 /* Persistence.swift in Sources */,
 				D25519412A6A9001003B7540 /* NewItemViewViewModel.swift in Sources */,
 				720770252A61C76000D1FA7C /* ContentView.swift in Sources */,
+				D255194C2A6ACA88003B7540 /* finalProject.xcdatamodeld in Sources */,
 				D25519452A6A96B4003B7540 /* FoodListViewViewModel.swift in Sources */,
 				D25518EF2A68433A003B7540 /* resourcesPage.swift in Sources */,
 				720770232A61C76000D1FA7C /* finalProjectApp.swift in Sources */,
+				D2F40DCF2A6AEDDB00E3BD4A /* ecoTips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +393,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D255194A2A6ACA87003B7540 /* finalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D255194B2A6ACA88003B7540 /* finalProject.xcdatamodel */,
+			);
+			currentVersion = D255194B2A6ACA88003B7540 /* finalProject.xcdatamodel */;
+			path = finalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 720770172A61C76000D1FA7C /* Project object */;
 }

@@ -44,7 +44,11 @@ struct resourcesPage: View {
                                                     Text("QR Code")
                                                         .foregroundColor(Color.black)
                                                         .offset(x:0,y:20)
-                                                }
+                                                    
+                                                    Image("homePage")
+                                                        .resizable(resizingMode: .stretch)
+                                                        .aspectRatio(contentMode: .fit)
+                                                        .frame(width: 90, height: 90)                                                }
                                             }
                                             
                                         }

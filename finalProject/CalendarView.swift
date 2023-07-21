@@ -11,13 +11,16 @@ import SwiftUI
 
 struct CalendarView: View {
     
-    @StateObject var viewModel = FoodListViewViewModel()
+    @FetchRequest(
+      entity: ExpirationDate.entity(), sortDescriptors: [ NSSortDescriptor(keyPath: \ExpirationDate.id, ascending: false) ])
+        
+    var foodItems: FetchedResults<ExpirationDate>
     
+    @StateObject var viewModel = FoodListViewViewModel()
+                      
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(red: 246/255, green: 240/255, blue: 214/255)
-                    .ignoresSafeArea()
                 VStack {
                     Text("Calendar")
                         .font(.system(size: 60))
@@ -25,21 +28,51 @@ struct CalendarView: View {
                         .multilineTextAlignment(.center)
                         .padding(.bottom)
                     
-                    ZStack {
-                        Color(red: 235/255, green: 225/255, blue: 185/255)
-                            .ignoresSafeArea()
+                    Spacer()
+                    
+                    VStack {
+                        
                         Text("Upcoming expirations")
                             .font(.largeTitle)
-                            .offset(x:0, y:-280)
+                        ZStack {
+                              
+                            List{
+                                Text("Bannas: Monday")
+                                Text("Milk: Wednesday")
+                                Text("Apples: Saturday")
+                            }
+                            Spacer()
+                            
+                            Image("Calendar")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 225.0, height: 225.0)
+                            
+                            
+                            Button("add food +") {
+                                //Action
+                                viewModel.showingNewItemView = true
+                            }
+                            .foregroundColor(.black)
+                            .font(.system(size: 45))
+                            .buttonStyle(.borderedProminent)
+                            .bold()
+                            .padding(.top, 350.0)
+                            }
                         
-                        Button("Button") {
-                            //Action
-                            viewModel.showingNewItemView = true
-                        }
                     }
-                }
+                    
+                    
+                    }
+                Image("homePage")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 90, height: 90)
+                    .offset(x:0, y:350)
+            }
                 .sheet(isPresented: $viewModel.showingNewItemView) {
-                    NewItemView(newItemPresented: $viewModel.showingNewItemView)
+                    NewItemView(title: "",
+                        newItemPresented: $viewModel.showingNewItemView)
                     
                 }
             }
@@ -54,4 +87,4 @@ struct CalendarView: View {
             CalendarView()
         }
     }
-}
+
