@@ -14,7 +14,7 @@ struct ContentView: View {
                 Color(red: 246/255, green: 240/255, blue: 214/255)
                     .ignoresSafeArea()
                 VStack {
-                    NavigationLink(destination: calenderPage()) {
+                    NavigationLink(destination: CalendarView()) {
                         ZStack {
                             Capsule()
                                 .fill( Color(red: 172/255, green: 214/255, blue: 87/255))
@@ -27,7 +27,7 @@ struct ContentView: View {
                             
                         }
                     }
-                    .offset(x:-180, y:-15)
+                    .offset(x:-180, y:30)
                     
                     
                     NavigationLink(destination: resourcesPage()) {
@@ -42,7 +42,7 @@ struct ContentView: View {
                                 .offset(x:-95, y:0)
                         }
                     }
-                    .offset(x:190, y:-130)
+                    .offset(x:190, y:20)
                     
                     NavigationLink(destination: recipesPage()) {
                         ZStack {
@@ -56,13 +56,15 @@ struct ContentView: View {
                                 .offset(x: 75 , y: 0)
                         }
                     }
-                    .offset(x:-190, y:50)
+                    .offset(x:-190, y:0)
                     
                    
                     NavigationLink(destination: ContentView()) {
 
                         Image("homePage")
+                            .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
+                            .frame(width: 90, height: 90)
                     }
                 }
             }

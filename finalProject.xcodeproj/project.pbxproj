@@ -11,13 +11,16 @@
 		720770252A61C76000D1FA7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720770242A61C76000D1FA7C /* ContentView.swift */; };
 		720770272A61C76200D1FA7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720770262A61C76200D1FA7C /* Assets.xcassets */; };
 		7207702A2A61C76200D1FA7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720770292A61C76200D1FA7C /* Preview Assets.xcassets */; };
-		D25518ED2A684247003B7540 /* calenderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518EC2A684247003B7540 /* calenderPage.swift */; };
+		D25518ED2A684247003B7540 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518EC2A684247003B7540 /* CalendarView.swift */; };
 		D25518EF2A68433A003B7540 /* resourcesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518EE2A68433A003B7540 /* resourcesPage.swift */; };
 		D25518F12A68438A003B7540 /* recipesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F02A68438A003B7540 /* recipesPage.swift */; };
-		D25518F72A697362003B7540 /* foodLogPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F62A697362003B7540 /* foodLogPage.swift */; };
 		D25518F92A69FE2F003B7540 /* OrganizationsForResourves.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518F82A69FE2F003B7540 /* OrganizationsForResourves.swift */; };
 		D25518FB2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518FA2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift */; };
 		D25518FD2A69FF4B003B7540 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25518FC2A69FF4B003B7540 /* QRCode.swift */; };
+		D255193F2A6A8E7B003B7540 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255193E2A6A8E7B003B7540 /* NewItemView.swift */; };
+		D25519412A6A9001003B7540 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25519402A6A9001003B7540 /* NewItemViewViewModel.swift */; };
+		D25519432A6A92B4003B7540 /* FLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25519422A6A92B4003B7540 /* FLButton.swift */; };
+		D25519452A6A96B4003B7540 /* FoodListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25519442A6A96B4003B7540 /* FoodListViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,13 +29,16 @@
 		720770242A61C76000D1FA7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		720770262A61C76200D1FA7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720770292A61C76200D1FA7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D25518EC2A684247003B7540 /* calenderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderPage.swift; sourceTree = "<group>"; };
+		D25518EC2A684247003B7540 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		D25518EE2A68433A003B7540 /* resourcesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesPage.swift; sourceTree = "<group>"; };
 		D25518F02A68438A003B7540 /* recipesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesPage.swift; sourceTree = "<group>"; };
-		D25518F62A697362003B7540 /* foodLogPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodLogPage.swift; sourceTree = "<group>"; };
 		D25518F82A69FE2F003B7540 /* OrganizationsForResourves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationsForResourves.swift; sourceTree = "<group>"; };
 		D25518FA2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreAboutFoodWaste.swift; sourceTree = "<group>"; };
 		D25518FC2A69FF4B003B7540 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		D255193E2A6A8E7B003B7540 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		D25519402A6A9001003B7540 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
+		D25519422A6A92B4003B7540 /* FLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLButton.swift; sourceTree = "<group>"; };
+		D25519442A6A96B4003B7540 /* FoodListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +77,12 @@
 				D25518EE2A68433A003B7540 /* resourcesPage.swift */,
 				D25518FC2A69FF4B003B7540 /* QRCode.swift */,
 				D25518FA2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift */,
-				D25518EC2A684247003B7540 /* calenderPage.swift */,
 				D25518F82A69FE2F003B7540 /* OrganizationsForResourves.swift */,
-				D25518F62A697362003B7540 /* foodLogPage.swift */,
+				D25518EC2A684247003B7540 /* CalendarView.swift */,
+				D255193E2A6A8E7B003B7540 /* NewItemView.swift */,
+				D25519422A6A92B4003B7540 /* FLButton.swift */,
+				D25519402A6A9001003B7540 /* NewItemViewViewModel.swift */,
+				D25519442A6A96B4003B7540 /* FoodListViewViewModel.swift */,
 				720770262A61C76200D1FA7C /* Assets.xcassets */,
 				720770282A61C76200D1FA7C /* Preview Content */,
 			);
@@ -159,12 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25518F92A69FE2F003B7540 /* OrganizationsForResourves.swift in Sources */,
-				D25518ED2A684247003B7540 /* calenderPage.swift in Sources */,
-				D25518F72A697362003B7540 /* foodLogPage.swift in Sources */,
+				D25518ED2A684247003B7540 /* CalendarView.swift in Sources */,
+				D25519432A6A92B4003B7540 /* FLButton.swift in Sources */,
 				D25518F12A68438A003B7540 /* recipesPage.swift in Sources */,
+				D255193F2A6A8E7B003B7540 /* NewItemView.swift in Sources */,
 				D25518FB2A69FEF1003B7540 /* LearnMoreAboutFoodWaste.swift in Sources */,
 				D25518FD2A69FF4B003B7540 /* QRCode.swift in Sources */,
+				D25519412A6A9001003B7540 /* NewItemViewViewModel.swift in Sources */,
 				720770252A61C76000D1FA7C /* ContentView.swift in Sources */,
+				D25519452A6A96B4003B7540 /* FoodListViewViewModel.swift in Sources */,
 				D25518EF2A68433A003B7540 /* resourcesPage.swift in Sources */,
 				720770232A61C76000D1FA7C /* finalProjectApp.swift in Sources */,
 			);
