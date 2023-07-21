@@ -31,7 +31,7 @@ struct resourcesPage: View {
                                             .foregroundColor(Color(red: 172/255, green: 214/255, blue: 87/255))
                                             .frame(width: 350.0, height: 125.0)
                                             .offset(x:0,y:0)
-                                        Text("Learn More About Food Waste")
+                                        Text("Ways to Prevent Food Waste")
                                             .foregroundColor(Color.black)
                                             .offset(x:0, y:-80)
                                         NavigationLink(destination: QRCode()) {

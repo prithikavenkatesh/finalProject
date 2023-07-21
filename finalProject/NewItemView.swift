@@ -33,10 +33,16 @@ struct NewItemView: View {
                         viewModel.save()
                         newItemPresented = false
                     } else {
-                        
+                        viewModel.showAlert = true
                     }
                 }
                 .padding()
+            }
+            .alert(isPresented:$viewModel.showAlert) {
+                Alert(
+                title: Text("Error"),
+                message: Text("Please fill in all fields and select a due date that is today or newer.")
+                      )
             }
         }
     }
